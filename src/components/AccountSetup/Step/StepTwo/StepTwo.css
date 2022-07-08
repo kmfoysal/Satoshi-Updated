@@ -1,0 +1,145 @@
+#multi_step_form .multi_step_form_head .back_arrow{
+    border: 0;
+    background: none;
+    color: #6B6E78;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+#multi_step_form .multi_step_form_head_content h3{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    color: white;
+
+}
+
+#multi_step_form .multi_step_form_head_content .connect_api{
+    font-family: 'Biennale';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    background: linear-gradient(90deg, #FF8833 0%, #F53E4C 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    position: relative;
+}
+
+#multi_step_form .multi_step_form_head_content .connect_api::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    background: linear-gradient(90deg, #FF8833 0%, #F53E4C 100%);
+    /*background-color: rgb(255, 255, 255, 0.1);*/
+    width: 100%;
+}
+
+#multi_step_form .multi_step_form_head_content p{
+    font-weight: 500;
+    font-size: 14px;
+    color: #6B6E78;
+}
+
+#multi_step_form .form-control{
+    color: #8D8F98;
+}
+
+#multi_step_form .multi_step_form_form input.apiKey{
+    box-shadow: none;
+    border: none;
+    height: 50px;
+    background: #191A1D;
+    border-radius: 12px;
+    border: 2px solid #191A1D;
+     background-image: url("data:image/svg+xml,%3Csvg width='17' height='17' viewBox='0 0 17 17' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M15.2992 6.79995C15.2992 9.6166 13.0159 11.9 10.1992 11.9C9.68397 11.9 9.18657 11.8235 8.71773 11.6814L6.79922 13.6H5.09922V15.3H1.69922V11.9L5.31773 8.28144C5.17563 7.8126 5.09922 7.3152 5.09922 6.79995C5.09922 3.9833 7.38257 1.69995 10.1992 1.69995C13.0159 1.69995 15.2992 3.9833 15.2992 6.79995ZM10.1992 3.39995C9.72978 3.39995 9.34922 3.78051 9.34922 4.24995C9.34922 4.71939 9.72978 5.09995 10.1992 5.09995C11.1381 5.09995 11.8992 5.86107 11.8992 6.79995C11.8992 7.26939 12.2798 7.64995 12.7492 7.64995C13.2187 7.64995 13.5992 7.26939 13.5992 6.79995C13.5992 4.92218 12.077 3.39995 10.1992 3.39995Z' fill='%234C4D54'/%3E%3C/svg%3E ");
+    background-repeat: no-repeat;
+    background-position: left 18px center;
+    padding-left: 45px;
+}
+#multi_step_form .multi_step_form_form input.global{
+    box-shadow: none;
+    border: none;
+    height: 50px;
+    background: #191A1D;
+    border-radius: 12px;
+    border: 2px solid #191A1D;
+    background-image: url("data:image/svg+xml,%3Csvg width='17' height='17' viewBox='0 0 17 17' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M3.46973 7.64995H5.12355C5.19938 6.33552 5.44965 5.12466 5.83569 4.14989C4.60411 4.9056 3.71808 6.16966 3.46973 7.64995ZM8.49922 1.69995C4.74368 1.69995 1.69922 4.74442 1.69922 8.49995C1.69922 12.2555 4.74368 15.3 8.49922 15.3C12.2548 15.3 15.2992 12.2555 15.2992 8.49995C15.2992 4.74442 12.2548 1.69995 8.49922 1.69995ZM8.49922 3.39995C8.43458 3.39995 8.30191 3.42692 8.10371 3.62252C7.90187 3.82172 7.6811 4.15212 7.47737 4.6275C7.14699 5.39839 6.90539 6.4477 6.82673 7.64995H10.1717C10.093 6.4477 9.85145 5.39839 9.52107 4.6275C9.31733 4.15212 9.09657 3.82172 8.89472 3.62252C8.69653 3.42692 8.56386 3.39995 8.49922 3.39995ZM11.8749 7.64995C11.7991 6.33552 11.5488 5.12466 11.1627 4.14989C12.3943 4.9056 13.2804 6.16966 13.5287 7.64995H11.8749ZM10.1717 9.34995H6.82673C6.90539 10.5522 7.14699 11.6015 7.47737 12.3724C7.6811 12.8478 7.90187 13.1782 8.10371 13.3774C8.30191 13.573 8.43458 13.6 8.49922 13.6C8.56386 13.6 8.69653 13.573 8.89472 13.3774C9.09657 13.1782 9.31733 12.8478 9.52107 12.3724C9.85145 11.6015 10.093 10.5522 10.1717 9.34995ZM11.1627 12.85C11.5488 11.8752 11.7991 10.6644 11.8749 9.34995H13.5287C13.2804 10.8302 12.3943 12.0943 11.1627 12.85ZM5.83569 12.85C5.44966 11.8752 5.19938 10.6644 5.12355 9.34995H3.46973C3.71808 10.8302 4.60411 12.0943 5.83569 12.85Z' fill='%234C4D54'/%3E%3C/svg%3E ");
+    background-repeat: no-repeat;
+    background-position: left 18px center;
+    padding-left: 45px;
+}
+#multi_step_form .multi_step_form_form input.secret{
+    box-shadow: none;
+    border: none;
+    height: 50px;
+    background: #191A1D;
+    border-radius: 12px;
+    border: 2px solid #191A1D;
+    background-image: url("data:image/svg+xml,%3Csvg width='17' height='17' viewBox='0 0 17 17' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M4.25078 7.64995V5.94995C4.25078 3.60274 6.15357 1.69995 8.50078 1.69995C10.848 1.69995 12.7508 3.60274 12.7508 5.94995V7.64995C13.6897 7.64995 14.4508 8.41107 14.4508 9.34995V13.6C14.4508 14.5388 13.6897 15.3 12.7508 15.3H4.25078C3.3119 15.3 2.55078 14.5388 2.55078 13.6V9.34995C2.55078 8.41107 3.3119 7.64995 4.25078 7.64995ZM11.0508 5.94995V7.64995H5.95078V5.94995C5.95078 4.54163 7.09246 3.39995 8.50078 3.39995C9.90911 3.39995 11.0508 4.54163 11.0508 5.94995Z' fill='%234C4D54'/%3E%3C/svg%3E ");
+    background-repeat: no-repeat;
+    background-position: left 18px center;
+    padding-left: 45px;
+}
+
+#multi_step_form .multi_step_form_form input:focus{
+    border: 2px solid #0D99FF;
+}
+
+
+#multi_step_form .multi_step_form_form .skip{
+    background: #191A1D;
+    border-radius: 12px;
+    border: none;
+    height: 50px;
+
+}
+
+#multi_step_form .multi_step_form_form .skip span{
+    font-weight: 700;
+    font-size: 15px;
+    color: #6B6E78;
+}
+
+#multi_step_form .multi_step_form_right_side img{
+    width: 100%;
+    height: 100vh;
+}
+
+#multi_step_form .multi_step_form_footer_text_color{
+    color: #6B6E78;
+}
+
+/*BOOTSTRAP CAROUSEL*/
+#multi_step_form #SatoshiCarouselCaptions .carousel-indicators button{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+#multi_step_form #SatoshiCarouselCaptions .carousel-indicators button.active{
+    background-color: #0D99FF;
+}
+
+#multi_step_form #SatoshiCarouselCaptions .carousel-item .carousel-caption h5{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    padding-bottom: 10px;
+}
+
+#multi_step_form #SatoshiCarouselCaptions .carousel-item .carousel-caption p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #8D8F98;
+}
+
+
+.apiKey{
+
+}

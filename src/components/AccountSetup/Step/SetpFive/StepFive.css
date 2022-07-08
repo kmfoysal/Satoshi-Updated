@@ -1,0 +1,22 @@
+#multi_step_form .multi_step_form_form .currentBotIcon {
+    margin-right: 10px;
+}
+
+#multi_step_form .multi_step_form_form .review_bottom{
+    margin-bottom: 10px;
+}
+
+#multi_step_form .multi_step_form_form .review_bottom p{
+    color: #fff;
+}
+
+#multi_step_form .multi_step_form_form .projectBorder{
+    background: rgba(13, 153, 255, 0.05);
+    border: 1px solid rgba(13, 153, 255, 0.5);
+    border-radius: 12px;
+    padding-left: 15px;
+}
+
+#multi_step_form .multi_step_form_form .projectBorder h4{
+    margin-bottom: 12px;
+}

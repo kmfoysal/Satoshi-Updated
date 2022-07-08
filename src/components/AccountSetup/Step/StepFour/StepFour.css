@@ -1,0 +1,71 @@
+#multi_step_form .multi_step_form_form .left_radio .label_head{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+#multi_step_form .multi_step_form_form .left_radio{
+    margin-right: 40px;
+}
+
+.form-check-input:checked[type=radio]{
+    background-image: none;
+}
+
+.form-check-input:checked{
+    box-shadow: none;
+    background-color: #fff;
+    border: none;
+}
+
+#multi_step_form .multi_step_form_form .right_radio .label_head{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+#multi_step_form .multi_step_form_form .customRadio input[type="radio"] {
+    position: absolute;
+    left: -9999px;
+}
+
+#multi_step_form .multi_step_form_form .customRadio input[type="radio"]+label {
+    position: relative;
+    padding: 1px 0 0 30px;
+    cursor: pointer;
+}
+
+#multi_step_form .multi_step_form_form .customRadio input[type="radio"]+label:before {
+    content: '';
+    background: transparent;
+    border: 1px solid #0D99FF;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    position: absolute;
+    top: 4px;
+    left: 0;
+}
+
+#multi_step_form .multi_step_form_form .customRadio input[type="radio"]+label:after {
+    content: '';
+    background: #0D99FF;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: 8px;
+    left: 4px;
+    opacity: 0;
+    transform: scale(2);
+    transition: transform 0.3s linear, opacity 0.3s linear;
+}
+
+#multi_step_form .multi_step_form_form .customRadio input[type="radio"]:checked+label:after {
+    opacity: 1;
+    transform: scale(1);
+}

@@ -1,0 +1,111 @@
+
+#forget_password {
+
+    background-image: url("data:image/svg+xml,%3Csvg width='668' height='859' viewBox='0 0 668 859' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect opacity='0.05' x='597.004' y='7.07107' width='89' height='89' transform='rotate(45 597.004 7.07107)' stroke='url(%23paint0_linear_8123_16251)' stroke-width='10'/%3E%3Crect opacity='0.05' y='7.07107' width='56.4575' height='56.4575' transform='matrix(-0.707107 0.707107 0.707107 0.707107 42.9902 767.071)' stroke='url(%23paint1_linear_8123_16251)' stroke-width='10'/%3E%3Cdefs%3E%3ClinearGradient id='paint0_linear_8123_16251' x1='646.504' y1='0' x2='646.504' y2='99' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%23EFF3F4'/%3E%3Cstop offset='1' stop-color='%23EFF3F4' stop-opacity='0'/%3E%3C/linearGradient%3E%3ClinearGradient id='paint1_linear_8123_16251' x1='33.2287' y1='0' x2='33.2287' y2='66.4575' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%23EFF3F4'/%3E%3Cstop offset='1' stop-color='%23EFF3F4' stop-opacity='0'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E%0A");
+    background-color: black ;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+#forget_password .forget_head img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 50px;
+}
+
+#forget_password .forget_head_content h3 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    color: white;
+}
+
+#forget_password .forget_head_content p {
+    font-weight: 500;
+    font-size: 14px;
+    color: #6b6e78;
+}
+
+#forget_password .form-control {
+    box-shadow: none;
+    color: #8d8f98;
+}
+
+#forget_password .forget_form .email .form-control {
+    height: 50px;
+    border-radius: 12px;
+    border: 2px solid #202124;
+    background-color: #202124 !important;
+    transition: all linear 0.1s;
+    background-image: url("data:image/svg+xml,%3Csvg width='17' height='17' viewBox='0 0 17 17' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.70303 5.00105L8.50015 8.39961L15.2974 5.001C15.2461 4.1082 14.5058 3.40002 13.6002 3.40002H3.4002C2.49454 3.40002 1.75428 4.10823 1.70303 5.00105Z' fill='%234C4D54'/%3E%3Cpath d='M15.3002 6.90024L8.50015 10.3003L1.7002 6.90029V11.9C1.7002 12.8389 2.46131 13.6 3.4002 13.6H13.6002C14.5391 13.6 15.3002 12.8389 15.3002 11.9V6.90024Z' fill='%234C4D54'/%3E%3C/svg%3E%0A");
+    background-repeat: no-repeat;
+    background-position: left 18px center;
+    padding-left: 45px;
+}
+
+#forget_password .forget_form .email .form-control:focus {
+    height: 50px;
+    border-radius: 12px;
+    border: 2px solid #0D99FF;
+    background-color: #202124 !important;
+    transition: all linear 0.1s;
+    background-image: url("data:image/svg+xml,%0A%3Csvg width='15' height='11' viewBox='0 0 15 11' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.703029 2.00105L7.50015 5.39961L14.2974 2.001C14.2461 1.1082 13.5058 0.400024 12.6002 0.400024H2.4002C1.49454 0.400024 0.754285 1.10823 0.703029 2.00105Z' fill='%230D99FF'/%3E%3Cpath d='M14.3002 3.90024L7.50015 7.30027L0.700195 3.90029V8.90003C0.700195 9.83891 1.46131 10.6 2.4002 10.6H12.6002C13.5391 10.6 14.3002 9.83891 14.3002 8.90003V3.90024Z' fill='%230D99FF'/%3E%3C/svg%3E%0A");
+    background-repeat: no-repeat;
+    background-position: left 18px center;
+    padding-left: 45px;
+}
+
+#forget_password .forget_form .password .form-control {
+    height: 50px;
+    border-radius: 12px;
+    background-color: #202124 !important;
+    transition: all linear 0.1s;
+    background-image: url("data:image/svg+xml,%3Csvg width='17' height='17' viewBox='0 0 17 17' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fillRule='evenodd' clipRule='evenodd' d='M4.2498 7.65001V5.95001C4.2498 3.6028 6.15259 1.70001 8.4998 1.70001C10.847 1.70001 12.7498 3.6028 12.7498 5.95001V7.65001C13.6887 7.65001 14.4498 8.41113 14.4498 9.35001V13.6C14.4498 14.5389 13.6887 15.3 12.7498 15.3H4.2498C3.31092 15.3 2.5498 14.5389 2.5498 13.6V9.35001C2.5498 8.41113 3.31092 7.65001 4.2498 7.65001ZM11.0498 5.95001V7.65001H5.9498V5.95001C5.9498 4.54169 7.09148 3.40001 8.4998 3.40001C9.90813 3.40001 11.0498 4.54169 11.0498 5.95001Z' fill='%234C4D54'/%3E%3C/svg%3E "),
+        url("data:image/svg+xml,%3Csvg width='17' height='17' viewBox='0 0 17 17' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10.2918 6.70792L6.70762 10.2921C6.2472 9.83167 5.96387 9.20126 5.96387 8.50001C5.96387 7.09751 7.0972 5.96417 8.4997 5.96417C9.20095 5.96417 9.83137 6.24751 10.2918 6.70792Z' stroke='%234C4D54' strokeWidth='1.5' strokeLinecap='round' strokeLinejoin='round'/%3E%3Cpath d='M12.6229 4.08709C11.3833 3.15209 9.96663 2.64209 8.50038 2.64209C5.99996 2.64209 3.66954 4.11542 2.04746 6.66542C1.40996 7.66417 1.40996 9.34292 2.04746 10.3417C2.60704 11.22 3.25871 11.9779 3.96704 12.5871' stroke='%234C4D54' strokeWidth='1.5' strokeLinecap='round' strokeLinejoin='round'/%3E%3Cpath d='M5.96387 13.8337C6.77137 14.1737 7.62845 14.3579 8.4997 14.3579C11.0001 14.3579 13.3305 12.8846 14.9526 10.3346C15.5901 9.33582 15.5901 7.65707 14.9526 6.65832C14.7189 6.28998 14.4639 5.9429 14.2018 5.61707' stroke='%234C4D54' strokeWidth='1.5' strokeLinecap='round' strokeLinejoin='round'/%3E%3Cpath d='M10.9858 8.99585C10.8016 9.9946 9.98703 10.8092 8.98828 10.9934' stroke='%234C4D54' strokeWidth='1.5' strokeLinecap='round' strokeLinejoin='round'/%3E%3Cpath d='M6.70824 10.2921L1.41699 15.5833' stroke='%234C4D54' strokeWidth='1.5' strokeLinecap='round' strokeLinejoin='round'/%3E%3Cpath d='M15.5832 1.41669L10.292 6.70794' stroke='%234C4D54' strokeWidth='1.5' strokeLinecap='round' strokeLinejoin='round'/%3E%3C/svg%3E%0A");
+    background-repeat: no-repeat;
+    background-position: left 18px center, right 18px center;
+    padding-left: 45px;
+}
+
+#forget_password .forget_form .reset_button{
+    height: 51px;
+    padding: 15px 28px;
+    background: #0D99FF;
+    border-radius: 12px;
+}
+
+
+
+#forget_password .forget_right_side img {
+    width: 100%;
+    height: 100vh;
+}
+
+#forget_password .forget_footer_text_color {
+    color: #6b6e78;
+}
+
+/*BOOTSTRAP CAROUSEL*/
+#forget_password #SatoshiCarouselCaptions .carousel-indicators button {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+#forget_password #SatoshiCarouselCaptions .carousel-indicators button.active {
+    background-color: #0d99ff;
+}
+
+#forget_password #SatoshiCarouselCaptions .carousel-item .carousel-caption h5 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    padding-bottom: 10px;
+}
+
+#forget_password #SatoshiCarouselCaptions .carousel-item .carousel-caption p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #8d8f98;
+}

@@ -1,0 +1,33 @@
+#failed_step{
+    background-image: url("../../../../assests/images/final_success.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+#failed_step .api_connection_box{
+    width: 512px;
+    background: #121316;
+    border-radius: 8px;
+    padding: 50px;
+    text-align: center ;
+}
+
+
+#failed_step .api_connection_box .content p{
+    font-weight: 500;
+    font-size: 16px;
+    color: #6B6E78;
+}
+
+
+#failed_step .api_connection_box .content button{
+    padding: 15px 28px;
+    width: 165px;
+    height: 56px;
+    background: linear-gradient(90deg, #FF8833 0%, #F53E4C 100%);
+    border-radius: 12px;
+}
+
+

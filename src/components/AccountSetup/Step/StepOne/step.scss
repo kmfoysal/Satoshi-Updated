@@ -1,0 +1,51 @@
+    .exchangeWrapper {
+        position: relative;
+        height: 50px;
+        padding: 0 20px;
+        width: 177px;
+        display: flex;
+        align-items: center;
+
+        .exchangeTitle {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 19px;
+            color: #6b6e78;
+        }
+        .exchangeContent {
+            position: absolute;
+            background: #202124;
+            border-radius: 12px;
+            height: 50px;
+            width: 177px;
+            padding: 0 20px;
+
+            .selectExchange {
+                position: absolute;
+                background-color: rgba(23, 189, 141, 0.1) !important;
+                background-image: url("data:image/svg+xml,%3Csvg width='18' height='18' viewBox='0 0 18 18' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M3.75 9.75L6.75 12.75L14.25 5.25' stroke='%2317BD8D' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+                background-repeat: no-repeat;
+                background-position: right 20px center;
+                border: 1.5px solid #17bd8d;
+                height: 100%;
+                width: 100%;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                border-radius: 12px;
+                display: none;
+            }
+        }
+
+        input {
+            &:checked ~ {
+                .selectExchange {
+                    display: block;
+                }
+                .exchangeTitle {
+                    color: #fff;
+                }
+            }
+        }
+    }

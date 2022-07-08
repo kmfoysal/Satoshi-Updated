@@ -1,0 +1,65 @@
+{
+    "name": "satoshi",
+    "homepage": "http://mdshahalam.design/satoshiClientSide/",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@fortawesome/fontawesome-svg-core": "^6.1.1",
+        "@fortawesome/free-regular-svg-icons": "^6.1.1",
+        "@fortawesome/free-solid-svg-icons": "^6.1.1",
+        "@fortawesome/react-fontawesome": "^0.1.18",
+        "@testing-library/jest-dom": "^5.16.4",
+        "@testing-library/react": "^13.0.1",
+        "@testing-library/user-event": "^13.5.0",
+        "apexcharts": "^3.35.2",
+        "axios": "^0.27.2",
+        "bootstrap": "^5.1.3",
+        "framer-motion": "^6.3.0",
+        "moment": "^2.29.4",
+        "rc-collapse": "^3.3.0",
+        "react": "^18.0.0",
+        "react-accessible-accordion": "^5.0.0",
+        "react-apexcharts": "^1.4.0",
+        "react-bootstrap": "^2.4.0",
+        "react-burger-menu": "^3.0.8",
+        "react-collapse": "^5.1.1",
+        "react-collapsed": "^3.3.2",
+        "react-countdown": "^2.3.2",
+        "react-dom": "^18.0.0",
+        "react-icons": "^4.3.1",
+        "react-modal-video": "^1.2.8",
+        "react-moment": "^1.1.2",
+        "react-pro-sidebar": "^0.7.1",
+        "react-router-dom": "^6.3.0",
+        "react-scripts": "5.0.1",
+        "react-timer-hook": "^3.0.5",
+        "react-tooltip": "^4.2.21",
+        "sass": "^1.52.1",
+        "styled-components": "^5.3.5",
+        "web-vitals": "^2.1.4"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}
